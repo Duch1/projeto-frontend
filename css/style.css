@@ -12,12 +12,33 @@ body{
     background-color: #F5F5F5;
 }
 
+/* configurando o header */
 header{
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFF;
     width: 100%;
     position: fixed;
+}
+
+nav{
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin-right: 2%;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover{
+    color: #808080;
 }
 
 h1{
@@ -79,7 +100,7 @@ button{
     position: fixed;
     right: 0;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 12%;
     z-index: 1;
 }
 
@@ -120,6 +141,25 @@ button{
 /* configurando o formulário */
 #formulario{
     background-color:rgba(173, 216, 230, 1.0);
+}
+
+.formulario-contato{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+input{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+}
+
+.dados-formulario{
+    width: 50%;
 }
 
 /* configurando o rodape */
